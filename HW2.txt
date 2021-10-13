@@ -1,0 +1,89 @@
+Как отправить ДЗ на проверку.
+ 1. Создайте текстоовый файл как в первом ДЗ по Terminal.
+ 2. Сценарий перенесите в этот файл.
+ 3. На против каждого действия - напишите команду в GitBash
+
+Файл со сценарием и ссылку на свой гит хаб отправляйте менторам на проверку.
+
+ 4. Создать файл “new.json” touch new.json
+ 5. Добавить файл под гит.git add .
+ 6. Закоммитить файл.git commit -m "added new.json file"
+ 7. Отправить файл на внешний GitHub репозиторий. Git push
+ 8. Создать файлы new2.json, new2.xml, new2.txt touch new2.json new2.xml new2.txt
+ 9. Добавить файлы под гит.git add .
+ 10. Закоммитить файлы. git commit -m "added 3 new files"
+ 11. Отправить файлы на внешний GitHub репозиторий. Git push
+ 12. Отредактировать содержание файла “new2.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата).vim new2.json
+
+name:Martenyuk Anastassiya Pavlovna
+age:28
+pet:1
+expected salary:1500 $
+                            
+ 13. Отредактировать содержание файла “new2.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON. Vim new2.json
+{
+ "Name": "Martenyuk Anastassiya Pavlovna"
+ "Age" : "28"
+ "Pet" : "1"
+ "Expected salary" : "1500$"
+
+}
+
+ 14. Добавить и закоммитить “new2.txt” одной строчкой. git commit -am "add text to new2.txt" 
+ 15. Добавить и закоммитить “new2.json” одной строчкой. git commit -am "add text to new2.json"
+ 16. Отправить изменения на внешний репозиторий. Git push
+ 17. Отредактировать содержание файла “new2.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML. vim new2.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <name>Martenyuk Anastassiya Pavlovna</name>
+ <age> 28 </age>
+ <pet> 1 </pet>
+ <expected salary> 1500 $ </expected salary>
+</root>
+ 18. Добавить и закоммитить “new2.xml” одной строчкой. git commit -am "add text to new2.xml" 
+ 19. Отправить изменения на внешний репозиторий.git push
+ 20. Отправить предыдущее домашнее задание по GitBush Terminal на внешний 
+репозиторий.
+git commit -am "added first homework"
+git status
+git push
+ 21. В веб интерфейсе GitHub создать файл new3.txt.
+ 22. Отредактировать в веб интерфейсе содержание файла “new3.txt” - написать информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить).
+Favorite movie : The Shawshank Redemption
+Favorite Show : Friends
+Favorite food: Pizza
+Favorite season: Summer
+Country that I want to visit: Nw Zealand
+ 23. Сделать Commit changes (сохранить) изменения на веб интерфейсе. Done
+ 24. Синхронизировать внешний и локальный репозитории (слить изменения с внешнего репозитория) git pull "https://github.com/Anastasuk/Anastassiya-Martenyuk"
+ 25. Отредактировать в веб интерфейсе содержание файла “new2.json” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате JSON.
+{ 
+ "Favorite movie" : "The Shawshank Redemption"
+"Favorite Show" : "Friends"
+"Favorite food" : "Pizza"
+"Favorite season" : "Summer"
+"Country of my dream" : "New Zealand"
+}
+ 26. Сделать Commit changes (сохранить) изменения на веб интерфейсе.done
+ 27. Синхронизировать внешний и локальный репозитории git pull "https://github.com/Anastasuk/Anastassiya-Martenyuk"
+
+ 28. Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате XML.
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <name>Martenyuk Anastassiya Pavlovna</name>
+ <age> 28 </age>
+ <pet> 1 </pet>
+ <expectedSalary> 1500 $ </expectedSalary>
+ <FavoriteMovie> The Shawshank Redemption </FavoriteMovie>
+ <FavoriteShow> Friends </FavoriteShow>
+<FavoriteFood> Pizza </FavoriteFood> 
+<FavoriteSeason> Summer </FavoriteSeason> 
+<Countryofmydream> New Zealand </Countryofmydream> 
+</root>
+ 29. Сделать Commit changes (сохранить) изменения на веб интерфейсе.done
+ 30. Синхронизировать внешний и локальный репозитории 
+
+Данные для заполнения и редактирования файлов можете использовать любые, не обязательно свои.
+
+https://github.com/Anastasuk/Anastassiya-Martenyuk/blob/main/new2.xml
